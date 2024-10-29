@@ -24,16 +24,18 @@
  .b{
     background: #20daab;
     border: 1px solid black;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 30%;
     position: relative;
+
  }
  .c{
     background: #3e07d6;
     border: 1px solid black;
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: relative;
+    left: 110px;
  }
  .d{
     background: #6e041b;
@@ -41,16 +43,20 @@
     height: 100px;
     width: 100px;
     z-index: 100px;
+    position: relative;
  }
  .e{
     background: #4ef778;
     border: 1px solid black;
     height: 100px;
     width: 100px;
+    position: fixed;
  }
  .f{
     background: #ce09a3;
     border: 1px solid rgb(207, 22, 176);
     height: 100px;
     width: 100px;
+    position: relative;
+    left: 102px;
  }
